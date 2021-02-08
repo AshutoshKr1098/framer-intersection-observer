@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+.navbar {
+  background: rgb(180, 39, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 39, 180, 1) 0%,
+    rgba(185, 92, 226, 1) 35%,
+    rgba(189, 0, 237, 1) 100%
+  );
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.navbar-heading {
+  font-size: 23px;
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.navbar-title,
+.navbar-links,
+.navbar-heading {
+  display: inline-block;
+}
+.navbar-links {
+  margin-left: 500px;
+}
+.navbar-links li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  color: white;
+}
